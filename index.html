@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouras Chihabedinne — Portfolio BUT GEII ESE</title>
+    <meta name="description" content="Portfolio de Bouras Chihabedinne — BUT GEII parcours Électronique et Systèmes Embarqués, IUT de Troyes.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="space"></canvas>
+<img src="sattelite.png" id="satellite-img" alt="Satellite">
+
+<nav class="nav" id="nav">
+    <span class="nav-brand">Bouras C.</span>
+    <ul class="nav-links">
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#about">Profil</a></li>
+        <li><a href="#y1">1ère Année</a></li>
+        <li><a href="#y2">2ème Année</a></li>
+        <li><a href="#comp">Compétences</a></li>
+    </ul>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="hero">
+    <div class="hero-inner">
+        <img src="ma_photo_linkedin_couleur.png" alt="Bouras Chihabedinne" class="hero-photo">
+        <div class="hero-tag">BUT GEII — Parcours ESE</div>
+        <h1>BOURAS <span>CHIHABEDINNE</span></h1>
+        <p class="hero-desc">Étudiant en Génie Électrique et Informatique Industrielle — spécialité Électronique et Systèmes Embarqués à l'IUT de Troyes. Passionné par l'électronique, les systèmes embarqués et l'informatique industrielle.</p>
+        <div class="hero-btns">
+            <a href="#about" class="btn-glow">Explorer mon parcours ↓</a>
+            <a href="https://www.linkedin.com/in/chihabedinne-bouras-461807338" target="_blank" class="btn-ghost">LinkedIn</a>
+            <a href="cv-bouras.jpg" target="_blank" class="btn-ghost">Mon CV</a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about">
+    <div class="container">
+        <div class="section-label rv">// Identification</div>
+        <h2 class="section-title rv">À propos de moi</h2>
+        <p class="section-sub rv">Informations personnelles et parcours académique</p>
+        <div class="about-grid">
+            <div>
+                <div class="card rv">
+                    <h2>Informations</h2>
+                    <ul class="info-list">
+                        <li><strong>Nom :</strong> Bouras</li>
+                        <li><strong>Prénom :</strong> Chihabedinne</li>
+                        <li><strong>Formation :</strong> BUT GEII — ESE</li>
+                        <li><strong>Établissement :</strong> IUT de Troyes</li>
+                        <li><strong>Email :</strong> <a href="mailto:chihabedinne.bouras@gmail.com">chihabedinne.bouras@gmail.com</a></li>
+                    </ul>
+                    <div class="links-row">
+                        <a href="https://www.linkedin.com/in/chihabedinne-bouras-461807338" target="_blank" class="btn-ghost" style="padding:7px 16px;font-size:.8em">LinkedIn</a>
+                        <a href="cv-bouras.jpg" target="_blank" class="btn-ghost" style="padding:7px 16px;font-size:.8em">Télécharger CV</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card rv">
+                    <h2>Mon parcours</h2>
+                    <p>Actuellement en 2ème année du <strong>BUT GEII</strong> à l'IUT de Troyes, parcours ESE. Titulaire d'un <strong>Baccalauréat scientifique avec mention</strong> (Lycée Camille Claudel, Troyes).</p>
+                    <h3>Compétences logicielles</h3>
+                    <p><strong>Qt Creator</strong> (C++, interfaces graphiques) · <strong>Quartus</strong> (VHDL, circuits FPGA) · <strong>Unity Pro</strong> (automates, Ladder, Grafcet) · <strong>Matlab</strong> · <strong>Arduino IDE</strong> · <strong>Tinkercad</strong> · <strong>Schemaplic</strong></p>
+                    <h3>Langages de programmation</h3>
+                    <p><strong>C / C++</strong> · <strong>VHDL</strong> · <strong>Ladder / SFC/ST</strong> · <strong>Arduino</strong> · <strong>Python</strong></p>
+                    <h3>Mon objectif</h3>
+                    <p>Intégrer une <strong>école d'ingénieurs</strong> pour approfondir mes compétences et contribuer à des projets technologiques innovants dans les systèmes embarqués.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== 1ÈRE ANNÉE ========== -->
+<section id="y1">
+    <div class="container">
+        <div class="section-label rv">// Année 1</div>
+        <h2 class="section-title rv">Projets de Première Année</h2>
+        <p class="section-sub rv">Immersion dans la formation GEII</p>
+
+        <article class="card rv">
+            <h2>SAÉ — Conception d'un multimètre</h2>
+            <div class="project-layout">
+                <div class="project-image-container">
+                    <img src="mon_portfolio/mon_portfolio/multimetre.png" alt="Multimètre" class="project-image">
+                </div>
+                <div class="project-info">
+                    <h3>Résumé</h3>
+                    <p>SAÉ sur 3 jours : <strong>concevoir un multimètre fonctionnel</strong> pour mesurer courants, résistances et tensions.</p>
+                    <ul class="custom-list">
+                        <li><strong>Théorie :</strong> Automatisme (Karnaugh), électronique (pont diviseur). Routage <strong>Tinkercad</strong>.</li>
+                        <li><strong>Pratique :</strong> Soudure composants sur CI + tests.</li>
+                        <li><strong>Programmation :</strong> Programme <strong>Arduino</strong> — calibres auto, LEDs, affichage 7 segments.</li>
+                    </ul>
+                    <p class="conclusion"><em>Bilan : mise en pratique des compétences du S1 sur un cas concret.</em></p>
+                    <div class="cbox c">
+                        <p><strong>AC11.01 :</strong> Analyse fonctionnelle — découpage multimètre.</p>
+                        <p><strong>AC11.02 :</strong> Prototype — soudure + programme Arduino.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="card rv">
+            <h2>SAÉ — Régulateur de température</h2>
+            <div class="project-layout">
+                <div class="project-image-container">
+                    <img src="mon_portfolio/mon_portfolio/image_78ff00.png" alt="Schéma fonctionnel" class="project-image">
+                    <img src="mon_portfolio/mon_portfolio/image_78ff1c.jpg" alt="Cartes pastillées" class="project-image">
+                </div>
+                <div class="project-info">
+                    <h3>Objectif</h3>
+                    <p><strong>Régulateur de température</strong> en binôme, 2 semaines — 8 fonctions, 7 cartes pastillées modulaires.</p>
+                    <ul class="custom-list">
+                        <li><strong>Init :</strong> Carte Alimenter+Capter à deux. Schémas papier avant soudure.</li>
+                        <li><strong>Autonomie :</strong> 3 cartes chacun. Mes fonctions : Commande Chauffe, Chauffer, Clignoter.</li>
+                        <li><strong>Process :</strong> Théorie → schéma → montage réel → soudure optimisée.</li>
+                        <li><strong>Tests :</strong> Banc d'essai par carte. Inspection, correction, validation.</li>
+                    </ul>
+                    <div class="cbox c">
+                        <p><strong>AC11.01 :</strong> Décomposition fonctionnelle.</p>
+                        <p><strong>AC11.02 :</strong> Schémas, prototypes, soudure plaque pastillée.</p>
+                        <p><strong>AC11.03 :</strong> Rédaction compte-rendu.</p>
+                    </div>
+                    <div class="cbox v"><p><strong>AC12.01 :</strong> Procédure d'essai stricte après chaque étape.</p></div>
+                </div>
+            </div>
+        </article>
+
+        <article class="card rv">
+            <h2>SAÉ — Énergie & Automatisme</h2>
+            <div class="project-layout">
+                <div class="project-image-container">
+                    <img src="mon_portfolio/mon_portfolio/image_789dbd.jpg" alt="Armoire électrique" class="project-image">
+                    <img src="mon_portfolio/mon_portfolio/image_789d83.jpg" alt="Maquette" class="project-image">
+                </div>
+                <div class="project-info">
+                    <h3>Présentation</h3>
+                    <p>Installation complète : armoire électrique → partie opérative (four, plateau rotatif, pince aspirante).</p>
+                    <h3>Automatisme</h3>
+                    <p>Automate <strong>UnityPro</strong> — 4 grafcets communicants (Plateau, Référence, Four, Maître).</p>
+                    <h3>Énergie</h3>
+                    <p>Câblage armoire : sectionneur, disjoncteurs, contacteurs, connecteur HE10 34 broches.</p>
+                    <div class="cbox c">
+                        <p><strong>AC11.01 :</strong> Analyse puissance/commande, grafcets.</p>
+                        <p><strong>AC11.02 :</strong> Grafcets UnityPro, simulation Schemaplic.</p>
+                        <p><strong>AC11.03 :</strong> Dossier de fabrication.</p>
+                    </div>
+                    <div class="cbox v">
+                        <p><strong>AC12.01 :</strong> Tests continuité, VAT, consignation.</p>
+                        <p><strong>AC12.02 :</strong> Résolution dysfonctionnements.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- ========== 2ÈME ANNÉE ========== -->
+<section id="y2">
+    <div class="container">
+        <div class="section-label rv">// Année 2 — ESE</div>
+        <h2 class="section-title rv">Projets de Deuxième Année</h2>
+        <p class="section-sub rv">Spécialité Électronique et Systèmes Embarqués</p>
+
+        <article class="card rv">
+            <h2>SAÉ 3.1 — Voiture Autonome</h2>
+            <div class="project-layout">
+                <div class="project-image-container">
+                    <img src="mon_portfolio/mon_portfolio/voiture.jpg" alt="Voiture autonome" class="project-image">
+                </div>
+                <div class="project-info">
+                    <h3>Mission</h3>
+                    <p>Partie logicielle d'une voiture autonome — <strong>supervision batterie</strong> + <strong>interface client Qt/C++</strong> + protocole TCP.</p>
+                    <div class="cbox c"><p><strong>AC21.01 :</strong> Architecture client-serveur, interface Qt, protocole TCP.</p></div>
+                    <div class="cbox i">
+                        <p><strong>AC24.01ESE :</strong> Développement C++/Qt, communication TCP.</p>
+                        <p><strong>AC24.02ESE :</strong> Tests intégration — pilotage + affichage temps réel.</p>
+                    </div>
+                    <div class="cbox v">
+                        <p><strong>AC22.01 :</strong> Tests unitaires TCP, validation LiDAR.</p>
+                        <p><strong>AC23.02 :</strong> Maintenance corrective C++.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="card rv">
+            <h2>SAÉ 3.2 — Banc de Test Haut-Parleur</h2>
+            <div class="project-info" style="padding:0">
+                <h3>Présentation</h3>
+                <p>Chaîne d'acquisition pour impédance HP. <strong>Approche analogique</strong> (Howland, MPY634KP, Rauch) puis <strong>numérique</strong> (CAN/CNA SPI, FFT Arduino).</p>
+                <div class="cbox c">
+                    <p><strong>AC21.01 :</strong> Banc analogique puis numérique. Modèle Matlab.</p>
+                    <p><strong>AC21.02 :</strong> Comparatif analogique/numérique, validation FFT.</p>
+                </div>
+                <div class="cbox i">
+                    <p><strong>AC24.01ESE :</strong> Scripts Matlab + Arduino (CNA MCP4822, FFT 64 éch.).</p>
+                    <p><strong>AC24.02ESE :</strong> Comparaison simulations/mesures.</p>
+                </div>
+                <div class="cbox m">
+                    <p><strong>AC23.01 :</strong> Calibration résistance pure.</p>
+                    <p><strong>AC23.04 :</strong> Recalcul équations d'impédance.</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="card rv">
+            <h2>SAÉ 4.1 — Contrôle Moteur FPGA/CPLD</h2>
+            <div class="project-layout">
+                <div class="project-image-container">
+                    <img src="mon_portfolio/mon_portfolio/image_780e9b.jpg" alt="Contrôle moteur" class="project-image">
+                </div>
+                <div class="project-info">
+                    <h3>Présentation</h3>
+                    <p>Contrôle moteur CC — logique <strong>VHDL sur CPLD DE10-Lite</strong>. Modules PWM, codeur incrémental, affichage 7 segments.</p>
+                    <div class="cbox c"><p><strong>AC21.02 :</strong> Validation progressive modules VHDL.</p></div>
+                    <div class="cbox i">
+                        <p><strong>AC24.01ESE :</strong> Code VHDL — PWM, codeur, affichage.</p>
+                        <p><strong>AC24.02ESE :</strong> Tests moteur vs consigne PWM.</p>
+                    </div>
+                    <div class="cbox v">
+                        <p><strong>AC22.01 :</strong> Oscilloscope — signaux de commande.</p>
+                        <p><strong>AC23.03 :</strong> Diagnostic erreurs codeur/signaux.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="card rv">
+            <h2>SAÉ 4.2 — Escape Bot (Robot autonome)</h2>
+            <div class="project-layout">
+                <div class="project-image-container">
+                    <img src="mon_portfolio/mon_portfolio/robot.png" alt="Escape Bot" class="project-image">
+                </div>
+                <div class="project-info">
+                    <h3>Objectifs</h3>
+                    <p>Évitement d'obstacles + détection balise — <strong>Raspberry Pi Pico</strong>, VS Code.</p>
+                    <ul class="custom-list">
+                        <li><strong>Phase 1 :</strong> PCB supervision batterie (tension/courant).</li>
+                        <li><strong>Phase 2 :</strong> Détection LEDs via <strong>caméra Pixy</strong> en C. Intégration MPU + LiDARs.</li>
+                    </ul>
+                    <div class="cbox c">
+                        <p><strong>AC21.01 :</strong> Banc test IR (Qt+IP), architecture logicielle.</p>
+                        <p><strong>AC21.02 :</strong> Validation Qt, apprentissage Pico.</p>
+                    </div>
+                    <div class="cbox i">
+                        <p><strong>AC24.01ESE :</strong> Interface Qt + code C Pico.</p>
+                        <p><strong>AC24.02ESE :</strong> Tests grandeur nature.</p>
+                    </div>
+                    <div class="cbox v"><p><strong>AC23.03 :</strong> Résolution bugs IP, compilation, conflits capteurs.</p></div>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- ========== COMPÉTENCES ========== -->
+<section id="comp">
+    <div class="container">
+        <div class="section-label rv">// Diplôme</div>
+        <h2 class="section-title rv">Compétences du BUT GEII</h2>
+        <p class="section-sub rv">Les 4 compétences mobilisées tout au long de ma formation</p>
+        <div class="comp-grid">
+            <div class="comp-tile tc rv">
+                <div class="comp-icon">🔧</div>
+                <h3>Concevoir</h3>
+                <p>Analyse fonctionnelle, conception de schémas, prototypage. Outils : Tinkercad, Schemaplic, Matlab, Qt Designer. Dérisquer des solutions techniques adaptées aux cahiers des charges.</p>
+            </div>
+            <div class="comp-tile tv rv">
+                <div class="comp-icon">✅</div>
+                <h3>Vérifier</h3>
+                <p>Procédures d'essai, tests continuité, VAT, oscilloscope, validation conformité. Certification du bon fonctionnement des systèmes électriques et embarqués.</p>
+            </div>
+            <div class="comp-tile tm rv">
+                <div class="comp-icon">🛠️</div>
+                <h3>Maintenir</h3>
+                <p>Diagnostic dysfonctionnements, maintenance corrective matérielle et logicielle, identification causes racines. Débogage C++, VHDL, Arduino, Matlab.</p>
+            </div>
+            <div class="comp-tile ti rv">
+                <div class="comp-icon">⚡</div>
+                <h3>Implanter</h3>
+                <p>Fabrication PCB, câblage armoire, programmation VHDL/CPLD, C/C++ embarqué (Pico, Arduino), Qt, communication TCP/SPI. Évaluation conformité.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 — BOURAS CHIHABEDINNE · Portfolio Universitaire · IUT de Troyes</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="space.js"></script>
+</body>
+</html>
