@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 
 :root{
-  --void:#05050d;
-  --deep:#080816;
-  --nebula-blue:rgba(15,25,60,0.6);
-  --card-bg:rgba(8,14,30,0.65);
-  --card-border:rgba(80,130,220,0.12);
-  --card-glow:rgba(70,140,255,0.25);
-  --text-bright:#dce6f5;
-  --text-dim:#6a7fa0;
-  --text-faint:#3a4a68;
-  --accent:#4a9eff;
-  --accent2:#00c8ff;
-  --gold:#e8a530;
-  --green:#34d399;
-  --purple:#a78bfa;
-  --font:'Inter',sans-serif;
-  --display:'Orbitron',sans-serif;
+  --bg:#030305;
+  --card-bg:rgba(20, 20, 30, 0.25);
+  --card-border:rgba(255,255,255,0.08);
+  --card-glow:rgba(0,242,254,0.4);
+  
+  --text-main:#f8fafc;
+  --text-dim:#94a3b8;
+  --text-bright:#ffffff;
+  
+  --accent:#4facfe;
+  --accent2:#00f2fe;
+  
+  --gold:#f59e0b;
+  --purple:#8b5cf6;
+  --green:#10b981;
+
+  --display:'Outfit', sans-serif;
+  --body:'Inter', sans-serif;
 }
 
 html{scroll-behavior:smooth}
@@ -120,7 +122,7 @@ section{padding:100px 0;position:relative;z-index:1}
   background:var(--card-bg);
   border:1px solid var(--card-border);
   border-radius:14px;padding:28px;
-  backdrop-filter:blur(16px);
+  backdrop-filter:blur(24px); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   transition:all .5s cubic-bezier(.25,.46,.45,.94);
   margin-bottom:28px;
   position:relative;overflow:hidden;
@@ -183,7 +185,7 @@ section{padding:100px 0;position:relative;z-index:1}
 .comp-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
 .comp-tile{
   background:var(--card-bg);border:1px solid var(--card-border);
-  border-radius:14px;padding:28px;backdrop-filter:blur(12px);
+  border-radius:14px;padding:28px;backdrop-filter:blur(24px); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   transition:all .5s;text-align:center;position:relative;overflow:hidden;
 }
 .comp-tile::after{
