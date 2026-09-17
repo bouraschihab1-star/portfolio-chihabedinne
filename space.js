@@ -189,7 +189,17 @@
 
     // Earth vertical scroll rotation
     earth.rotation.x = scrollY * 0.002;
-    earth.rotation.y += 0.0005; // Slow ambient spin
+    earth.rotation.y += 0.0005;
+
+    // 3D Parallax Dive (The Wow Factor)
+    // Camera moves closer to Earth and tilts down as you scroll
+    let targetZ = 10 - (scrollY * 0.0025);
+    let targetY = -(scrollY * 0.0015);
+    camera.position.z += (Math.max(6, targetZ) - camera.position.z) * 0.1;
+    camera.position.y += (targetY - camera.position.y) * 0.1;
+    
+    // Slight look down
+    camera.lookAt(0, earth.position.y * 0.2, 0);
 
     // Stars subtle drift
     starsMesh.rotation.y = time * 0.05;
